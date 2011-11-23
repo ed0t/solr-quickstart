@@ -3,4 +3,13 @@ Solr Quickstart Maven Archetype
 This archetype is supposed to automate the creation of a project that uses Apache Solr.
 It can also provide an acceptance tests framework using EasyB
 
+
+-- HOW DOES IT WORKS:
+
+* checkout the project
+* mvn clean install
+
+* mvn archetype:generate -DarchetypeGroupId=com.sourcesense.solr -DarchetypeArtifactId=solr-quickstart -DarchetypeVersion=0.3-SNAPSHOT
+
+
 THIS COMMIT IS A TEST
