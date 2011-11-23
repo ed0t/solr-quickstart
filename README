@@ -1,7 +1,10 @@
 Solr Quickstart Maven Archetype
 
-This archetype is supposed to automate the creation of a project that uses Apache Solr.
-It can also provide an acceptance tests framework using EasyB
+
+The goal is to automate the creation of a search engine project based on Apache Solr, introducing also an optional infrastructure to execute acceptance tests.
+Acceptance tests are executed with EasyB.
+
+This project has been inspired by Relevancy Driven Development (https://github.com/rbramley/solr-rdd) by Robin Bramley and indeed the basic example story (BaseSearch.story) is part of Robin work.
 
 
 -- HOW DOES IT WORKS:
@@ -11,5 +14,7 @@ It can also provide an acceptance tests framework using EasyB
 
 * mvn archetype:generate -DarchetypeGroupId=com.sourcesense.solr -DarchetypeArtifactId=solr-quickstart -DarchetypeVersion=0.3-SNAPSHOT
 
+it will create a solr project where you can modify schema.xml and solrconfig.xml
 
-THIS COMMIT IS A TEST
+Optionally it also provides a sample acceptance test
+
