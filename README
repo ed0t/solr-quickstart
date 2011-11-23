@@ -1,0 +1,6 @@
+Solr Quickstart Maven Archetype
+
+This archetype is supposed to automate the creation of a project that uses Apache Solr.
+It can also provide an acceptance tests framework using EasyB
+
+THIS COMMIT IS A TEST
