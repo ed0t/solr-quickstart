@@ -12,7 +12,8 @@ This project has been inspired by Relevancy Driven Development (https://github.c
 * checkout the project
 * mvn clean install
 
-* mvn archetype:generate -DarchetypeGroupId=com.sourcesense.solr -DarchetypeArtifactId=solr-quickstart -DarchetypeVersion=0.3-SNAPSHOT
+* mvn archetype:generate -DarchetypeGroupId=com.sourcesense.solr -DarchetypeArtifactId=solr-quickstart-archetype -DarchetypeVersion=0.3-SNAPSHOT
+* mvn archetype:generate -DarchetypeGroupId=com.sourcesense.solr -DarchetypeArtifactId=solr-quickstart-archetype-no-acceptance-tests -DarchetypeVersion=0.3-SNAPSHOT
 
 it will create a solr project where you can modify schema.xml and solrconfig.xml
 
