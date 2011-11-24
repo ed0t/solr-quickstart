@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-        <!--
- |  Copyright 2011 Sourcesense
+<!--
+ |  Copyright 2011 Edoardo Tosca
  |
  |  Licensed under the Apache License, Version 2.0 (the "License");
  |  you may not use this file except in compliance with the License.
@@ -25,12 +25,12 @@
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.sourcesense.solr</groupId>
+    <groupId>net.devonlinux.solr</groupId>
     <artifactId>solr-quickstart</artifactId>
     <packaging>pom</packaging>
     <version>0.3-SNAPSHOT</version>
     <name>Solr Quickstart</name>
-    <description>Solr Quickstart is a Maven archetype to create your custom search engine based on Apache Solr. It also provides an infrastructure to execute acceptance tests.</description>
+    <description>Solr Quickstart is a Maven archetype to create a search application based on Apache Solr and provide an infrastructure to execute acceptance tests.</description>
     <url>https://github.com/ed0t/solr-quickstart</url>
 
 
@@ -50,7 +50,7 @@
 
     <scm>
         <url>https://github.com/ed0t/solr-quickstart</url>
-        <connection>scm:git:ssh://github.com/git@github.com:ed0t/solr-quickstart.git</connection>
+        <connection>scm:git:git://github.com/ed0t/solr-quickstart.git</connection>
     </scm>
     
    

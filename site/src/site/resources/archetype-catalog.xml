@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
- |  Copyright 2011 Sourcesense
+ |  Copyright 2011 Edoardo Tosca
  |
  |  Licensed under the Apache License, Version 2.0 (the "License");
  |  you may not use this file except in compliance with the License.
@@ -17,14 +17,14 @@
 <archetype-catalog>
     <archetypes>
         <archetype>
-            <groupId>com.sourcesense.solr</groupId>
+            <groupId>net.devonlinux.solr</groupId>
             <artifactId>solr-quickstart-archetype</artifactId>
             <version>0.3-SNAPSHOT</version>
             <description>Solr Quickstart Standalone Archetype (Jetty)</description>
         </archetype>
 
         <archetype>
-            <groupId>com.sourcesense.solr</groupId>
+            <groupId>net.devonlinux.solr</groupId>
             <artifactId>solr-quickstart-archetype-no-acceptance-tests</artifactId>
             <version>0.3-SNAPSHOT</version>
             <description>Solr Quickstart Standalone Archetype (Jetty) Without Acceptance Tests</description>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
- |  Copyright 2011 Sourcesense
+ |  Copyright 2011 Edoardo Tosca
  |
  |  Licensed under the Apache License, Version 2.0 (the "License");
  |  you may not use this file except in compliance with the License.
@@ -25,7 +25,7 @@
         <defaultValue>A Solr project</defaultValue>
       </requiredProperty>
       <requiredProperty key="organization-url">
-        <defaultValue>http://www.website.net</defaultValue>
+        <defaultValue>http://www.devonlinux.net</defaultValue>
       </requiredProperty>
       <requiredProperty key="solr-version">
         <defaultValue>3.4.0</defaultValue>
