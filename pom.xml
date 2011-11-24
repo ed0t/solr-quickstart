@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
         <!--
- |  Copyright 2010 Sourcesense
+ |  Copyright 2011 Sourcesense
  |
  |  Licensed under the Apache License, Version 2.0 (the "License");
  |  you may not use this file except in compliance with the License.
@@ -17,13 +17,22 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
 
+    <parent>
+        <groupId>com.sourcesense</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>1</version>
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
     <groupId>com.sourcesense.solr</groupId>
     <artifactId>solr-quickstart</artifactId>
     <packaging>pom</packaging>
     <version>0.3-SNAPSHOT</version>
     <name>Solr Quickstart</name>
+    <description>Solr Quickstart is a Maven archetype to create your custom search engine based on Apache Solr. It also provides an infrastructure to execute acceptance tests.</description>
+    <url>https://github.com/ed0t/solr-quickstart</url>
+
 
     <licenses>
         <license>
@@ -36,9 +45,14 @@
 
     <issueManagement>
         <system>GitHub Issue tracker</system>
-        <url>https://github.com/ed0t/Apache-Solr-Quickstart/issues</url>
+        <url>https://github.com/ed0t/solr-quickstart/issues</url>
     </issueManagement>
 
+    <scm>
+        <url>https://github.com/ed0t/solr-quickstart</url>
+        <connection>scm:git:ssh://github.com/git@github.com:ed0t/solr-quickstart.git</connection>
+    </scm>
+    
    
     <build>
            <defaultGoal>install</defaultGoal>
