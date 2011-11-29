@@ -18,13 +18,13 @@
     <parent>
         <artifactId>solr-quickstart</artifactId>
         <groupId>net.devonlinux.solr</groupId>
-        <version>0.3</version>
+        <version>0.3-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>solr-archetypes</artifactId>
-    <version>0.3</version>
+    <version>0.3-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Solr Quickstart :: Archetypes</name>
 
