@@ -51,7 +51,7 @@
     </issueManagement>
 
     <scm>
-        <url>https://github.com/ed0t/solr-quickstart</url>
+        <url>git://github.com/ed0t/solr-quickstart.git</url>
         <connection>scm:git:git://github.com/ed0t/solr-quickstart.git</connection>
     </scm>
 
@@ -78,9 +78,12 @@
 
             <plugin>
                 <artifactId>maven-release-plugin</artifactId>
-                <configuration>
-                    <autoVersionSubmodules>true</autoVersionSubmodules>
-                </configuration>
+                <version>2.1</version>
+                    <configuration>
+                        <mavenExecutorId>forked-path</mavenExecutorId>
+                        <useReleaseProfile>false</useReleaseProfile>
+                        <arguments>-Prelease</arguments>
+                    </configuration>
             </plugin>
         </plugins>
 
