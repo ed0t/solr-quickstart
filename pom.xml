@@ -50,8 +50,8 @@
 
     <scm>
         <connection>scm:git:git://github.com/ed0t/solr-quickstart.git</connection>
-        <url>scm:git:git://github.com/ed0t/solr-quickstart.git</url>
-        <developerConnection>scm:git:git://github.com/ed0t/solr-quickstart.git</developerConnection>
+        <url>scm:git:ssh://github.com/ed0t/solr-quickstart.git</url>
+        <developerConnection>scm:git:ssh://github.com/ed0t/solr-quickstart.git</developerConnection>
     </scm>
 
 
