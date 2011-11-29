@@ -26,7 +26,7 @@
     <groupId>net.devonlinux.solr</groupId>
     <artifactId>solr-quickstart</artifactId>
     <packaging>pom</packaging>
-    <version>0.3-SNAPSHOT</version>
+    <version>0.3</version>
     <name>Solr Quickstart</name>
     <description>Solr Quickstart is a Maven archetype to create a search application based on Apache Solr and provide an
         infrastructure to execute acceptance tests.
