@@ -19,9 +19,9 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 
     <parent>
-        <groupId>com.sourcesense</groupId>
+        <groupId>org.sonatype.oss</groupId>
         <artifactId>oss-parent</artifactId>
-        <version>1</version>
+        <version>7</version>
     </parent>
 
     <modelVersion>4.0.0</modelVersion>
@@ -30,7 +30,9 @@
     <packaging>pom</packaging>
     <version>0.3-SNAPSHOT</version>
     <name>Solr Quickstart</name>
-    <description>Solr Quickstart is a Maven archetype to create a search application based on Apache Solr and provide an infrastructure to execute acceptance tests.</description>
+    <description>Solr Quickstart is a Maven archetype to create a search application based on Apache Solr and provide an
+        infrastructure to execute acceptance tests.
+    </description>
     <url>https://github.com/ed0t/solr-quickstart</url>
 
 
@@ -52,40 +54,48 @@
         <url>https://github.com/ed0t/solr-quickstart</url>
         <connection>scm:git:git://github.com/ed0t/solr-quickstart.git</connection>
     </scm>
-    
-   
+
+
+
+    <developers>
+        <developer>
+            <id>ed0t</id>
+            <name>Edoardo Tosca</name>
+            <email>edoardo [dot] tosca [at] gmail [dot] com</email>
+        </developer>
+    </developers>  
+
     <build>
-           <defaultGoal>install</defaultGoal>
+        <defaultGoal>install</defaultGoal>
 
-           <plugins>
-               <!--
-                | inherited from parent pom
-               -->
-               <plugin>
-                   <artifactId>maven-jar-plugin</artifactId>
-               </plugin>
+        <plugins>
+            <!--
+             | inherited from parent pom
+            -->
+            <plugin>
+                <artifactId>maven-jar-plugin</artifactId>
+            </plugin>
 
-               <plugin>
-                   <artifactId>maven-release-plugin</artifactId>
-                   <configuration>
-                       <autoVersionSubmodules>true</autoVersionSubmodules>
-                   </configuration>
-               </plugin>
-           </plugins>
+            <plugin>
+                <artifactId>maven-release-plugin</artifactId>
+                <configuration>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
+                </configuration>
+            </plugin>
+        </plugins>
 
-           <pluginManagement>
-               <plugins>
-                   <plugin>
-                       <groupId>org.apache.maven.plugins</groupId>
-                       <artifactId>maven-assembly-plugin</artifactId>
-                       <version>2.2.1</version>
-                   </plugin>
-               </plugins>
-           </pluginManagement>
-       </build>
-    
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-assembly-plugin</artifactId>
+                    <version>2.2.1</version>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
 
-    
+
     <modules>
         <module>site</module>
         <module>archetypes</module>
