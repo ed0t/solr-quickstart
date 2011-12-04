@@ -18,13 +18,13 @@
     <parent>
         <artifactId>solr-quickstart</artifactId>
         <groupId>net.devonlinux.solr</groupId>
-        <version>0.4-SNAPSHOT</version>
+        <version>0.4</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>solr-quickstart-site</artifactId>
-    <version>0.4-SNAPSHOT</version>
+    <version>0.4</version>
     <name>Solr Quickstart :: Docs</name>
     <packaging>pom</packaging>
 
