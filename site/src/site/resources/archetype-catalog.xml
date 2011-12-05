@@ -19,14 +19,14 @@
         <archetype>
             <groupId>net.devonlinux.solr</groupId>
             <artifactId>solr-quickstart-archetype</artifactId>
-            <version>0.3-SNAPSHOT</version>
+            <version>0.4</version>
             <description>Solr Quickstart Standalone Archetype (Jetty)</description>
         </archetype>
 
         <archetype>
             <groupId>net.devonlinux.solr</groupId>
             <artifactId>solr-quickstart-archetype-no-acceptance-tests</artifactId>
-            <version>0.3-SNAPSHOT</version>
+            <version>0.4</version>
             <description>Solr Quickstart Standalone Archetype (Jetty) Without Acceptance Tests</description>
         </archetype>
     </archetypes>
