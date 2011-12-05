@@ -28,5 +28,12 @@
     <name>Solr Quickstart :: Docs</name>
     <packaging>pom</packaging>
 
+    <distributionManagement>
+        <site>
+            <id>github</id>
+            <url>gitsite:git@github.com/ed0t/solr-quickstart.git</url>
+        </site>
+    </distributionManagement>
+
 
 </project>
