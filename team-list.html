@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Solr-Quickstart - </title>
+    <title>Solr-Quickstart - Team list</title>
     <link rel="stylesheet" href="./css/apache-maven-fluido.min.css" />
     <link rel="stylesheet" href="./css/site.css" />
     <link rel="stylesheet" href="./css/print.css" media="print" />
@@ -50,8 +50,8 @@
                           <a href="project-info.html" title="Project Information">Project Information</a>
                     <ul>
                       <li class="none">
-            <strong>About</strong>
-          </li>
+                          <a href="index.html" title="About">About</a>
+            </li>
                       <li class="none">
                           <a href="integration.html" title="Continuous Integration">Continuous Integration</a>
             </li>
@@ -80,8 +80,8 @@
                           <a href="project-summary.html" title="Project Summary">Project Summary</a>
             </li>
                       <li class="none">
-                          <a href="team-list.html" title="Project Team">Project Team</a>
-            </li>
+            <strong>Project Team</strong>
+          </li>
                       <li class="none">
                           <a href="source-repository.html" title="Source Repository">Source Repository</a>
             </li>
@@ -91,8 +91,8 @@
                        <h5>Solr Quickstart :: Docs</h5>
                   <ul>
                   <li class="none">
-            <strong>Home</strong>
-          </li>
+                          <a href="index.html" title="Home">Home</a>
+            </li>
                   <li class="none">
                           <a href="archetype-catalog.xml" title="Archetype Catalog">Archetype Catalog</a>
             </li>
@@ -127,7 +127,22 @@
       <div id="bodyColumn" class="content">
         <div id="contentBox">
                               
-          <!--  --><!-- Copyright 2011 Edoardo Tosca --><!--  --><!-- Licensed under the Apache License, Version 2.0 (the "License"); --><!-- you may not use this file except in compliance with the License. --><!-- You may obtain a copy of the License at --><!--  --><!-- http://www.apache.org/licenses/LICENSE-2.0 --><!--  --><!-- Unless required by applicable law or agreed to in writing, software --><!-- distributed under the License is distributed on an "AS IS" BASIS, --><!-- WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. --><!-- See the License for the specific language governing permissions and --><!-- limitations under the License. --><!--  --><div class="section"><h2>Welcome to Solr Quickstart<a name="Welcome_to_Solr_Quickstart"></a></h2><p><i>Solr Quickstart</i> is a small collection of <i>Apache Maven</i> archetypes to simplify the creation of <i>Apache Solr</i> standalone applications.</p></div><div class="section"><h2>Installation<a name="Installation"></a></h2><p>Users have not to install <i>Solr Quickstart</i>, just use it inside the <i>Maven Archetype</i> launching on shell:</p><div class="source"><pre class="prettyprint">mvn archetype:generate -DarchetypeCatalog=http://ed0t.github.com/solr-quickstart/archetype-catalog.xml</pre></div></div>
+          <div class="section"><h2>The Team<a name="The_Team"></a></h2><a name="The_Team"></a><p>A successful project requires many people to play many roles. Some members write code or documentation, while others are valuable as testers, submitting patches and suggestions.</p><p>The team is comprised of Members and Contributors. Members have direct access to the source of a project and actively evolve the code-base. Contributors improve the project through submission of patches and suggestions to the Members. The number of Contributors to the project is unbounded. Get involved today. All contributions to the project are greatly appreciated.</p><div class="section"><h3>Members<a name="Members"></a></h3><a name="Members"></a><p>The following is a list of developers with commit privileges that have directly contributed to the project in one way or another.</p><table border="0" class="zebra-striped"><tr class="a"><th>Id</th><th>Name</th><th>Email</th></tr><tr class="b"><td><a name="ed0t"></a>ed0t</td><td>Edoardo Tosca</td><td>edoardo [dot] tosca [at] gmail [dot] com</td></tr></table></div><div class="section"><h3>Contributors<a name="Contributors"></a></h3><a name="Contributors"></a><p>There are no contributors listed for this project. Please check back again later.</p><script type="text/javascript">
+function offsetDate(id, offset) {
+    var now = new Date();
+    var nowTime = now.getTime();
+    var localOffset = now.getTimezoneOffset();
+    var developerTime = nowTime + ( offset * 60 * 60 * 1000 )+ ( localOffset * 60 * 1000 );
+    var developerDate = new Date(developerTime);
+
+    document.getElementById(id).innerHTML = developerDate;
+}
+
+function init(){
+}
+
+window.onLoad = init();
+</script></div></div>
                   </div>
       </div>
     </div>
