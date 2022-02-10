@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: solr-quickstart
+  annotations:
+    github.com/project-slug: ed0t/solr-quickstart
+spec:
+  type: other
+  lifecycle: unknown
+  owner: edo
